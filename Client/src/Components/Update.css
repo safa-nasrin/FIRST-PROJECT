@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+body{
+    background-image: url("../assets/new.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px;
+    margin-top: 100px;
+}
+.container2 .get{
+   padding: 10px;
+   width:250px;
+   outline:none;
+   border: none;
+   height: 30px;
+   border:2px solid #d2c7ba;
+   
+}
+.get:focus{
+    outline:2px solid #C0AF9D;
+}
+
+.container2 button{
+    padding: 10px;
+    outline:none;
+    border: none;
+    margin-right: 2px;
+    border-color: #C0AF9D;
+    height:50px;
+    background-color: #C0AF9D;
+}
+ul{
+    list-style-position: inside;
+    padding-left: 20px;
+}
+.li{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content:center; */
+    /* align-items: center; */
+  
+    font-size: 25px;
+    padding-bottom:20px;
+    /* text-align: left; */
+    font-family: "Domine", serif;
+  font-optical-sizing: auto;
+   }
+.container3{
+    margin:40px 0 0 400px;
+    float: left;
+    
+}
+.icon1{
+    margin-left:230px;
+    margin-top:-25px ;
+    margin-right:50px;
+} 
+.icon2{
+    margin-left:250px;
+    margin-top:-25px ;
+
+
+}
+.li .icon3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}

@@ -4,45 +4,26 @@
  justify-content: center;
  align-items: center;
  margin-bottom: 40px;
-   
+ 
 }
 .addtask{
     width:350px;
     padding:20px ;
-    background-color: #E1D7C6;
+    background-color:white ; /* */
     border: none;
+    border:2px solid #d2c7ba;
     outline: none;
    
 }
 .addtask:hover{
-    outline:3px solid #CDC2A5;
+    outline:2px solid #C0AF9D;
+   /*#CDC2A5; */
 }
-
 .btn{
     padding:20px;
     border: none;
-    background-color: #CDC2A5;
-    
+    background-color: #C0AF9D;
 }
-.li{
- 
- display: flex;
- justify-content:center;
- align-items: center;
- margin-right: 300px;
- font-size: 20px;
- padding-bottom:20px;
- text-align: right;
- /* float: left; */
- 
-}
-.container3{
-    
-    margin:0 240px 20px 200px;
-    float: left;
-    
-}
-
 .icon2{
     padding-left: 20px;
     float: right;

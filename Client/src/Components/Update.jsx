@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import { AiFillDelete, AiFillEdit } from "react-icons/ai";
 import { toast } from 'react-toastify'; // Ensure you have this installed
+import './Update.css'
 
 const Update = () => {
   const [todos, setTodos] = useState([]);
@@ -66,7 +67,7 @@ const Update = () => {
   };
 
   return (
-    <div>
+    <div className='main-container'>
       {isEditing ? (
         <div className="container2">
           <input className="get" type="text" value={currentTodo.message} onChange={handleEditInputChange} />
@@ -80,9 +81,9 @@ const Update = () => {
           {todos.map((todo) => (
             <li className='li' key={todo._id}>
               {todo.message}
-              <div className='icon2'>
-              <AiFillEdit className="icon" onClick={() => handleEdit(todo)} />
-              <AiFillDelete className="icon" onClick={() => handleDelete(todo._id)} />
+              <div className='icon3'>
+              <AiFillEdit className="icon1" onClick={() => handleEdit(todo)} />
+              <AiFillDelete className="icon2" onClick={() => handleDelete(todo._id)} />
               </div>
             </li>
           ))}
