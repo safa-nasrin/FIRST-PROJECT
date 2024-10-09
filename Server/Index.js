@@ -3,7 +3,7 @@
 // 3rd Step=Models
 // 4th Step=Controllers
 // 5th Step=Routes after that we have to import routes file in this after runserver()
-
+require('dotenv').config();
 const express=require('express')
 const Runserver = require('./Database/todoConnection')
 const todoRouter = require('./Routes/todoRoutes')
